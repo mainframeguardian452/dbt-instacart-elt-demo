@@ -1,0 +1,44 @@
+dbt_instacart_demo:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: BCAWZWI-SVA25571
+      user: jadmin
+      #password: Vitam1nBComplex
+      role: ACCOUNTADMIN
+      database: instacart_demo
+      warehouse: COMPUTE_WH
+      schema: DBT_INSTACART_DEMO
+      #authenticator: externalbrowser
+      #private_key_path: E:/sf_keys
+      private_key_passphrase:  c0kezero
+      reuse_connections: true
+      private_key: "MIIFJTBfBgkqhkiG9w0BBQ0wUjAxBgkqhkiG9w0BBQwwJAQQucxqu2YG78ueS0AM
+GnSt8wICCAAwDAYIKoZIhvcNAgkFADAdBglghkgBZQMEASoEEMTqnyEbMpmc4Y4p
+7gmWqI4EggTAGbxZ9WU59iqEHzw9A2yvzgqQesz/rgJz74kmWU7F+zlo0q766+AK
+ovj+3G/Mqd2Dijhewg5HmOtF3Yqbm2o+nRSycVO31AyjwXzJbc7wS231ZykQ0agR
+z+pBTUlJ2v1TE4YIG6eYC5SY2KGeGkw1SMRdp2tyJGzVvtSpz6fFDC9m5HBugn88
+ZSZ0tCseQg9/ft7mU/puow+kj0bqO9lih10i0V5rLiNqt76Za7B/z6J0VnsojcHM
+wNE7bvcW4xPRybtw161y/tJMJL3tIQl4xae54EPtBqyU+gvKFknnqxwxnl4xx/oK
+2J2+xo3BKdg+FlpGTlOrBHcIvSRCWb0Qkp3j9D+bdQh3F8EvIryfsV19ex5TrFQd
+/hs4C6A4ich6lYyqkH/Jt20X28cZTgeop8jI9uCJflSJ5mfsirQQN9iwt22REre4
+bOjuQqpjVpLL/+kNn5vP/TRgWCKhabK1lUcTjMwq2frOkzGO8x8bz191F9MABuOC
+94Hb2Ky2ksA5yWjHezLnoj5CgTHQqImc9/3mMtZnpImbk+6K00Vpi7mYh51iczzJ
+AAx97x7yQIqFu1o2p26HRTdjk944QXbcXMhVuPx5/TU39nXaFzK0ItCXg4R9ZBm2
+iPy2nB5dRP725+h/nMkexthlK/9GOhGezmQnvHUMFESHpjNlH5qV+tHh8Ip+4ofL
+2+qhYfTuEsRDgcPCaVJU9AyB/j3QFm4Q01igGLmhcIyIn9yRsZPX5JPVH9H/upgY
+I7mRmfxTURzK4tX7jmZpApFDwoQcY6aeYCcY3EBLyD9x9IRoN10Fs0EKc0BBtRTg
+hW7XHDxLTngBStjiAQK0re0EGbEDRE4twpCm01aP6hV/rmGdU8NKFtpnT9TibMw1
+lzWu0Db8odWIiKy+hZLP1eLT3g5cu2MwLrb1E2kPqsmDDH1haLPEMQwVcXhijrVF
+FinhBxfcEwWumkmr3VXEVgqsWDoQ3scphBmrBBkspP/pRxuq8cZymMvNDz0K6wyM
+KcUhIA9VBIGnardPp3K5u+IKx1C53LnSa+MY3cGMagEhLwqecTlkKmjejIu+bJ03
+Af2vvlTxZT3D8uzNL74vl1a/meV/9mMLpK56zDE98909rpM7lXou7ZgsLEoCh10V
+xYL66fypyfflwaI+nlq4DjYkVu0C9UxIa6eg/EOt4dG8cq/WMgeR9ClQFQ6JOPhd
+5JdyOh60dtn4cFaSSswLbhKaVR6H/Jr20hM8BzS5v5BV5gZUkNr2fm2/bvtufck9
+W/VIBfgpsSLJUEJ+u6yjZreCxHgNp7wefggDpwkO5stG6LfmSBsEOhnpcm2bObJo
+pxmFE9GbzH+qCQq5V/hzcqGjm5HcRDQ92QOMrBGX++dUSJ7ZqZiuVZ03tN+EsZyp
+OO7NJivozF3/NUiQqcB62q3mln3quJcOfJaZli5fVUKpg405oJj6hwkBfMfwkOCp
+edospD6qkNtSW3AGQjArfZnXHKV4CtksSCqW8RnmLlTugrdNF0RQ+SqKCz5F7R6J
+NcUAGY91ZQka+q4qviWGfYIpQeTHBgajH4E5fPXJVwk+eW6rkLtEuTR/EZ02Uqlm
+DkmDXWU6ZcPGUYArn42jSsiCXxqBgPGWtw=="
